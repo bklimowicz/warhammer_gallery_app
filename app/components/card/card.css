@@ -1,0 +1,25 @@
+.card-container {
+    width: 225px;
+    height: 300px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-container__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.card-container__image hr {
+    width: 50%;
+}
+
+.card-container__details {
+    flex-grow: 1;
+}
